@@ -1,4 +1,9 @@
 import java.util.Arrays;
+
+// Question Link : https://www.geeksforgeeks.org/problems/three-great-candidates0515/1
+// Leetcode : https://leetcode.com/problems/maximum-product-of-three-numbers/description/
+
+
 public class ThreeGreatestCandidates {
     public static void main(String[] args) {
         System.out.println(maxProduct(new int[]{-10, -3, 5, 6, -20}));
