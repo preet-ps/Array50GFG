@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 // Question Link : https://www.geeksforgeeks.org/problems/three-great-candidates0515/1
 // Leetcode : https://leetcode.com/problems/maximum-product-of-three-numbers/description/
-
+//Code
 
 public class ThreeGreatestCandidates {
     public static void main(String[] args) {
@@ -40,6 +40,7 @@ public class ThreeGreatestCandidates {
     // Scan the array and compute the first, second and third maximum and compute the maximum product for positive ones
     // Scan the array for first and second minimum and multiply it by the max to obtain the maximum product
     // Return the maximum out of 2
+    // Time Complexity : O(N) Space Complexity : O(1)
 
     static int maxProduct2(int[] nums){
 
