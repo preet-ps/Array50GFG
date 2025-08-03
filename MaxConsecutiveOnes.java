@@ -5,7 +5,7 @@ public class MaxConsecutiveOnes {
     }
 
     // Traversing the array and counting ones till a zero occurs updating the maxCount for the same
-    // Time Complexity : O(N) Space Complexity : O(N)
+    // Time Complexity : O(N) Space Complexity : O(1)
     public static int maxConsecBits(int[] arr) {
         int count = 0, maxOnes = 0;
 
